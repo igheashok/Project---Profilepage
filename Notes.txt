@@ -1,0 +1,22 @@
+*  NOTES *
+
+----- PREVIOUS NAME STYLE -----
+.name {
+    /* font-family: 'Comfortaa', sans-serif; */
+    font-family: 'Great Vibes', cursive;
+    /*background-color: #17181e;*/
+    background-color: #000000;
+    padding-left: 8cm;
+    padding-top: 0.5cm;
+    font-size: 100px;
+    /*color: #fc9242;*/
+    color: #34df81;
+}
+
+
+----- PREVIOUS NAME CLASS -----
+font-effect-fire
+
+
+----- PREVIOUS BODY BACKGROUND COLOR -----
+background-color: #17181e;

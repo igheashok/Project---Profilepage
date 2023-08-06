@@ -1,0 +1,227 @@
+/* ---------- COMMON STYLES ---------- */
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.left {
+    text-align: left;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0.3cm;
+    text-align: center;
+}
+
+.greenText {
+    color: #9adccb !important;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.container:hover {
+    color: #9adccb;
+    background-color: #23232d;
+}
+
+body {
+    background-color: #000000;
+}
+
+p,
+i {
+    color: white;
+}
+
+p.left {
+    color: white;
+}
+
+.footer {
+    font-family: 'Comfortaa', sans-serif;
+    color: azure;
+    background-color: #000000;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+}
+
+
+
+
+
+/* ---------- HOME PAGE ---------- */
+.name {
+    font-family: 'Great Vibes', cursive;
+    background-color: #000000;
+    padding-left: 8cm;
+    padding-top: 0.5cm;
+    font-size: 100px;
+    color: rgb(64, 226, 159);
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+.intro {
+    color: lightgray;
+    font-family: 'Carattere';
+    font-size: 30px;
+}
+
+.bio {
+    color: #9adccb !important;
+    font-size: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-left: 8.25cm;
+}
+
+.codingProfile {
+    color: #9adccb !important;
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-right: 0.5cm;
+}
+
+#profilePhoto {
+    object-fit: contain;
+    float: left;
+}
+
+#welcome {
+    font-family: 'Carattere';
+    color: azure;
+    font-size: 55px;
+}
+
+#welcome:hover {
+    color: rgb(255, 216, 132);
+}
+
+
+
+
+
+/* ---------- MY HOBBIES PAGE ---------- */
+.myhobbies {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #000000;
+    background-image: url("static/Pic\ 2.jpg");
+    background-size: cover;
+    font-size: 90px;
+    padding-top: 3cm;
+    color: hotpink;
+    height: 8cm;
+}
+
+
+
+
+
+/* ---------- RESUME PAGE ---------- */
+.resume {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Comfortaa';
+    padding-top: 0.5cm;
+}
+
+#resumePic {
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+/* ---------- CONTACT PAGE ---------- */
+#holler {
+    font-family: 'Carattere';
+    color: aliceblue;
+    font-size: 100px;
+    padding-top: 1cm;
+}
+
+.instalogo {
+    height: 5%;
+    width: 5%;
+    float: inline-start;
+    align-items: center;
+}
+
+.contactbody {
+    font-family: 'Carattere';
+    font-size: 50px;
+    color: aliceblue;
+}
+
+input[type="text"] {
+    background-color: #23232d;
+    border: 2px solid rgba(255, 0, 157, 0.938);
+    color: aliceblue;
+    margin: 0.5cm;
+    padding: 0.5cm;
+    font-size: 20px;
+}
+
+select {
+    border: 2px solid rgba(255, 0, 157, 0.938);
+    background-color: #23232d;
+    color: aliceblue;
+    margin: 0.5cm;
+    padding: 0.5cm;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    background-color: #fd60ce;
+    border: 2px;
+    color: rgb(0, 0, 0);
+    margin: 0.5cm;
+    padding: 0.5cm;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #ff3cce;
+    border: 2px;
+    color: rgb(255, 255, 255);
+    margin: 0.5cm;
+    padding: 0.5cm;
+    font-size: 20px;
+}
+
+
+
+
+
+/* ---------- THANK YOU PAGE ---------- */
+#thanks {
+    font-family: 'Sofia', cursive;
+    color: aliceblue;
+    font-size: 100px;
+    padding-top: 5cm;
+}
+
+#seeyou {
+    font-family: "Sofia", cursive;
+    color: #FFEBAD;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px rgba(134, 142, 146, 0.781);
+}
